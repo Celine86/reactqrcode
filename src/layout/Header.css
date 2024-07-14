@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 0.15rem solid var(--tertiary);
+    height: 5vh;
+}
+.mainLogo {
+    width: 1.75rem;
+    height: auto;
+}
+.mytitle {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
