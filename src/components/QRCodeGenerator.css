@@ -1,7 +1,7 @@
 input[type=text] {
     padding: 0.5rem;
     margin: 1rem 0;
-    width: 14rem;
+    width: 20rem;
     background-color: var(--primary-bg-color);
     border: 0.15rem solid var(--secondary);
     color: var(--primary);
@@ -16,7 +16,6 @@ input[type=text]:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15rem;
-    height: 15rem;
-    border: 0.15rem solid var(--secondary)
+    width: 18rem;
+    height: 18rem;
 }
