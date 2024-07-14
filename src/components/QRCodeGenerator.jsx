@@ -16,10 +16,14 @@ export function QrCodeGenerator () {
         />
         <div className="qrcode">
             {value ? (
-                <QRCode 
-                    title="Liline's Lab"
-                    value={value}
-                />
+                <div className="thecode">
+                    <QRCode 
+                        title="Liline's Lab"
+                        value={value}
+                        size={165}
+                        level='L'
+                    />
+                </div>
             ) : (
                 <p>Le QRCode apparaîtra ici !</p>
             )}

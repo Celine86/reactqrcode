@@ -11,11 +11,14 @@ input[type=text]:focus {
     color: var(--secondary);
     font-weight: bold;
 }
-
 .qrcode {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 18rem;
     height: 18rem;
+}
+.thecode {
+    background-color: var(--primary);
+    padding: 1rem;
 }
