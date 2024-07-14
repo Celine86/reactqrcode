@@ -1,0 +1,22 @@
+input[type=text] {
+    padding: 0.5rem;
+    margin: 1rem 0;
+    width: 14rem;
+    background-color: var(--primary-bg-color);
+    border: 0.15rem solid var(--secondary);
+    color: var(--primary);
+    font-weight: bold;
+}
+input[type=text]:focus {
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+.qrcode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 15rem;
+    border: 0.15rem solid var(--secondary)
+}
