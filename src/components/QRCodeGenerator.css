@@ -22,3 +22,17 @@ input[type=text]:focus {
     background-color: var(--primary);
     padding: 1rem;
 }
+button {
+    display: block;
+    margin: 1rem auto;
+    width: 6rem;
+    height: 1.75rem;
+    color: var(--primary);
+    font-weight: bold;
+    background-color: var(--primary-bg-color);
+    border: 0.15rem solid var(--secondary);
+}
+button:hover {
+    border: 0.15rem solid var(--tertiary);
+    cursor: pointer;
+}
