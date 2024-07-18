@@ -1,3 +1,8 @@
+.qrName {
+    color: var(--primarydark);
+    font-size: 0.5rem;
+    padding: 0 0 0.5rem 0;
+}
 input[type=text] {
     padding: 0.5rem;
     margin: 1rem 0;
@@ -11,21 +16,23 @@ input[type=text]:focus {
     color: var(--secondary);
     font-weight: bold;
 }
-.qrcode {
+.qrCodeContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 18rem;
     height: 18rem;
 }
-.thecode {
+.qrCode {
     background-color: var(--primary);
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 button {
     display: block;
     margin: 1rem auto;
-    width: 6rem;
+    width: 12rem;
     height: 1.75rem;
     color: var(--primary);
     font-weight: bold;

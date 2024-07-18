@@ -10,4 +10,8 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     margin: 0.15rem 0;
+    padding: 1rem 0 0 0;
+}
+.socialIcons img {
+    padding: 0 0.25rem;
 }

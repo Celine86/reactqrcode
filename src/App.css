@@ -1,10 +1,11 @@
-*{
+/**{
     margin: 0.15rem;
     padding: 0;
-}
+}*/
 :root {
     --primary-bg-color: #182534;
     --primary: #FFFFFF;
+    --primarydark: #182534;
     --secondary: #1DD2AF;
     --tertiary: #ffff00;
 }
